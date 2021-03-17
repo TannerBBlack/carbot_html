@@ -1,3 +1,4 @@
+</main>
 <div class="full-width-footer">
   <footer>
     <div class="flexed">

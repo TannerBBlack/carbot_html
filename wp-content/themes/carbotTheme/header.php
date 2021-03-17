@@ -56,7 +56,7 @@
 
     <div class="wrap">
       <div class="search">
-         <input type="text" class="searchTerm" placeholder="Search...">
+         <input type="text" class="searchTerm" placeholder="Search..." name="s">
          <button type="submit" class="searchButton">
            <i class="fa fa-search"></i>
         </button>
@@ -65,3 +65,4 @@
 
   </nav>
 </div>
+<main>
