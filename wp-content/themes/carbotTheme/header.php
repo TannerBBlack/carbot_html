@@ -10,9 +10,9 @@
 <!-- TELLS PHONES NOT TO LIE ABOUT THEIR WIDTH & stops the font from enlarging when a phone is turned sideways-->
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
 
-<link rel="stylesheet" type="text/css" href="slick-1.8.1/slick/slick.css"/>
+<link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/slick-1.8.1/slick/slick.css"/>
 <!--Add the new slick-theme.css if you want the default styling --> 
-<link rel="stylesheet" type="text/css" href="slick-1.8.1/slick/slick-theme.css"/>
+<link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/slick-1.8.1/slick/slick-theme.css"/>
 
 
 <!-- STYLE SHEETS -->
@@ -26,8 +26,8 @@
 
 <header class="clearfix">
   <figure class="logo">
-    <img srcset="images/logo1.png 1x, images/logo2.png 2x, images/logo3.png 3x" 
-    src="images/logo1.png" alt="logo">
+    <img srcset="<?php echo get_template_directory_uri(); ?>/images/logo1.png 1x, <?php echo get_template_directory_uri(); ?>/images/logo2.png 2x, <?php echo get_template_directory_uri(); ?>/images/logo3.png 3x" 
+    src="<?php echo get_template_directory_uri(); ?>/images/logo1.png" alt="logo">
   </figure>
   <a href="tel:123-456-7890">123-456-7890</a>
 </header>
