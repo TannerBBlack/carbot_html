@@ -51,7 +51,7 @@
         </li>
       <li><a href="#">Book</a></li>
     </ul> -->
-    <?php wp_nav_menu()?>
+    <?php wp_nav_menu(array('menu_id' => 'primaryNav')); ?>
 
 
     <div class="wrap">
