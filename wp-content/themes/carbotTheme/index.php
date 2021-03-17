@@ -1,10 +1,10 @@
 <?php include 'header.php'; ?>
 <main>
     <div class="your-class">
-        <picture><source media="(max-width: 450px" srcset="<?php echo get_template_directory_uri(); ?>/images/cruise1small.jpg"><img src="<?php echo get_template_directory_uri(); ?>/images/cruise1.jpg"></picture>
-        <picture><source media="(max-width: 450px" srcset="<?php echo get_template_directory_uri(); ?>/images/cruise2small.jpg"><img src="<?php echo get_template_directory_uri(); ?>/images/cruise2.jpg"></picture>
-        <picture><source media="(max-width: 450px" srcset="<?php echo get_template_directory_uri(); ?>/images/carnival-magic-ship-aerial-featsmall.jpg"><img src="<?php echo get_template_directory_uri(); ?>/images/carnival-magic-ship-aerial-feat.jpg"></picture>
-        <picture><source media="(max-width: 450px" srcset="<?php echo get_template_directory_uri(); ?>/images/cruise-ship-2small.jpg"><img src="<?php echo get_template_directory_uri(); ?>/images/cruise-ship-2.jpg"></picture>
+        <picture><source media="(max-width: 450px" srcset="/sliders/cruise1small.jpg"><img src="/sliders/cruise1.jpg"></picture>
+        <picture><source media="(max-width: 450px" srcset="/sliders/cruise2small.jpg"><img src="/sliders/cruise2.jpg"></picture>
+        <picture><source media="(max-width: 450px" srcset="/sliders/carnival-magic-ship-aerial-featsmall.jpg"><img src="/sliders/carnival-magic-ship-aerial-feat.jpg"></picture>
+        <picture><source media="(max-width: 450px" srcset="/sliders/cruise-ship-2small.jpg"><img src="/sliders/cruise-ship-2.jpg"></picture>
     </div>
 
     <h2>Recent Blog Posts</h2>
