@@ -34,26 +34,26 @@ header {
     }
 } // end of header
 
-// nav {background-color: #111;
-//     ul {margin:0; 
-//         padding: 0;
-//         list-style-type: none;
-//         li { 
-//             width: 25%; 
-//             float: left;
-//         }
-//     }
+nav {background-color: #111;
+    ul {margin:0; 
+        padding: 0;
+        list-style-type: none;
+        li { 
+            width: 25%; 
+            float: left;
+        }
+    }
     
-//     li.active {background-color: #333}
-//     a {
-//         display: block;
-//         padding: .8rem 0; /*44px min*/
-//         color: #eee;
-//         text-align: center;
-//         text-decoration: none;
-//     } // end of a tag
-//     a:hover {background-color: #444;}
-// } // end of nav
+    li.active {background-color: rgb(95, 95, 95)}
+    a {
+        display: block;
+        padding: .8rem 0; /*44px min*/
+        color: #eee;
+        text-align: center;
+        text-decoration: none;
+    } // end of a tag
+    a:hover {background-color: #444;}
+} // end of nav
 
 .search {
     width: 100%;
@@ -143,6 +143,131 @@ main{display: block; padding: 1rem $gutter;
     letter-spacing: 4px;
     background-color: black;
     opacity: 100%;
+}
+
+figure {
+    display: flex;
+    margin: 1rem 0;
+    img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+#cruises-area {
+    display: flex;
+    flex-wrap: wrap;
+    figure {
+        flex-basis: 50%;
+        margin: 0;
+    }
+    img {width: 100%;}
+    .readMore {
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+}
+
+form label.top, form div {
+    display: block;
+    padding-top: 1rem;
+    color: #9c2c13;
+    font-size: .8rem;
+}
+
+form label.top input, form label.top select {
+    -webkit-appearance: none;
+    display: block;
+    font-size: 1rem;
+    border: solid 1px #999;
+    border-radius: 4px;
+    padding: .75rem;
+    color: #555;
+    width: 100%;
+    max-width: 20rem;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.container {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 1rem;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  
+  /* Hide the browser's default radio button */
+  .container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+  }
+  
+  /* Create a custom radio button */
+  .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+    border-radius: 50%;
+  }
+  
+  /* On mouse-over, add a grey background color */
+  .container:hover input ~ .checkmark {
+    background-color: #ccc;
+  }
+  
+  /* When the radio button is checked, add a blue background */
+  .container input:checked ~ .checkmark {
+    background-color: #2196F3;
+  }
+  
+  /* Create the indicator (the dot/circle - hidden when not checked) */
+  .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  
+  /* Show the indicator (dot/circle) when checked */
+  .container input:checked ~ .checkmark:after {
+    display: block;
+  }
+  
+  /* Style the indicator (dot/circle) */
+  .container .checkmark:after {
+       top: 9px;
+      left: 9px;
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: white;
+  }
+
+form button.submitBtn {
+    border: none;
+    background-color: #2471b9;
+    color: white;
+    border-radius: 1rem;
+    padding: .75rem 1.5rem;
+    margin: 2rem 0;
+    width: 96%;
+    max-width: 20rem;
+}
+
+form label.top input:required {
+    border-left: red solid 6px;
+}
+
+form label.top input:required:valid {
+    border-left: green solid 6px;
 }
 // end of main
 
