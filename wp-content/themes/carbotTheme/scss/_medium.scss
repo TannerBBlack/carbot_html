@@ -109,4 +109,8 @@
   .mapouter {
       width: 65%;
       float: right;
+      .gmap_canvas {
+          width: 100%;
+          height: auto;
+      }
   }
