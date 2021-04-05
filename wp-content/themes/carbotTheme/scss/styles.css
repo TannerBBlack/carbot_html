@@ -411,7 +411,7 @@ body {
   font-size: 16px; }
 
 header {
-  background-color: #17a8e4;
+  background-color: #e4a317;
   padding: 1rem 2%; }
   header img {
     float: left;
@@ -484,7 +484,7 @@ main {
   display: block;
   padding: 1rem 2%; }
   main h1 {
-    color: #17a8e4;
+    color: #e4a317;
     font-weight: 700; }
   main figcaption {
     text-align: center;
@@ -643,7 +643,7 @@ form label.top input:required:valid {
   border-left: green solid 6px; }
 
 footer {
-  background-color: #17a8e4;
+  background-color: #e4a317;
   text-align: center;
   padding: 1rem 2%; }
   footer div.flexed {
@@ -875,7 +875,7 @@ footer {
     column-rule: 1px solid #ddd; }
 
   .full-width-footer {
-    background-color: #17a8e4; }
+    background-color: #e4a317; }
 
   .full-width-nav {
     background-color: #111; }
@@ -927,7 +927,7 @@ footer {
     float: right; }
   #cruises-area button {
     border: none;
-    background-color: #17a8e4;
+    background-color: #e4a317;
     color: white;
     padding: .5rem;
     border-radius: 3rem; }
