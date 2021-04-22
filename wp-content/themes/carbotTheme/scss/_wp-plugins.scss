@@ -1,0 +1,81 @@
+// wordpress contact form 7
+div.wpcf7 {
+    margin: 0 $gutter;
+
+    .wpcf7-text, .wpcf7-select, .wpcf7-textarea {
+        font-size: 1rem;
+        color: $primaryColor;
+        padding: .65rem .5rem;
+        margin: 0;
+        border-radius: 4px;
+        border: 1px solid #999;
+    }
+    .wpcf7-submit {
+        -webkit-appearance: none;
+        width: 200px;
+        background-color: $primaryColor;
+        border-radius: 15px;
+        border: none;
+        font-size: 1rem;
+        color: white;
+        font-weight: 600;
+        padding: .5rem;
+    }
+}
+
+// news pugin
+div.news-content {
+    padding: .5rem $gutter 0 $gutter;
+
+    .date-post {
+        background-color: $primaryColor;
+        float: left;
+
+        h2 {
+
+        }
+        p {
+
+        }
+    }
+
+    .post-content-text {
+        margin-left: 4rem;
+
+        h3.news-title {
+            font-size: 1.4rem;
+        }
+        .news-content-excerpt {
+            color: black;
+        }
+        a.news-more-link {
+            background-color: $primaryColor;
+            color: white;
+        }
+    }
+}
+
+div.news_pagination {
+    text-align: center;
+
+    .page-numbers {background-color: $primaryColor;}
+
+    a {color: white;}
+
+    a:hover {background-color: grey;}
+
+    .current { background-color: rgb(1, 1, 136);}
+}
+
+figure.newsphoto {
+    width: 100%;
+    img {width: 100%;}
+}
+
+@media only screen and (min-width: 35rem) {
+    figure.newsphoto {
+        width: 50%;
+        float: right;
+        margin-left: $gutter;
+    }
+}
